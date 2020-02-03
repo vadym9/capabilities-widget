@@ -1,0 +1,53 @@
+h1 {
+  margin: 0px;
+  font-size: 40px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.8px;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 28px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.56px;
+}
+
+body {
+  margin: 0px;
+}
+body p {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 80px;
+  margin: 0px auto;
+  width: 63.3333%;
+}
+
+.debug-green {
+  border: 1px solid green;
+}
+
+.debug-red {
+  border: 1px solid red;
+}
+
+.debug-blue {
+  border: 1px solid blue;
+}
+
+/*# sourceMappingURL=style.css.map */
