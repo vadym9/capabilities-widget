@@ -38,6 +38,14 @@ body p {
   width: 63.3333%;
 }
 
+.flex {
+  display: flex;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
 .debug-green {
   border: 1px solid green;
 }
@@ -48,6 +56,45 @@ body p {
 
 .debug-blue {
   border: 1px solid blue;
+}
+
+.widget .container .content .info {
+  margin-top: 117px;
+}
+.widget .container .content .info .description {
+  margin-top: 16px;
+  width: 75.246%;
+}
+.widget .container .content .two-blocks {
+  margin-top: 67px;
+}
+.widget .container .content .two-blocks .block {
+  width: 50%;
+}
+.widget .container .content .two-blocks .block .items {
+  padding: 5px 120px 5px 40px;
+}
+.widget .container .content .two-blocks .block .items ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.widget .container .content .two-blocks .block .items ul li {
+  position: relative;
+  margin-top: 16px;
+}
+.widget .container .content .two-blocks .block .items ul li:before {
+  content: "";
+  position: absolute;
+  left: -40px;
+  top: 50%;
+  transform: translatey(-50%);
+  background-color: red;
+  width: 4px;
+  height: 56px;
+}
+.widget .container .content .two-blocks .block .items ul li:first-child {
+  margin-top: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

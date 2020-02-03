@@ -19,6 +19,15 @@ body {
   width:63.3333%;
 }
 
+.flex{
+  display: flex;
+}
+
+.jcsb{
+  justify-content: space-between;
+}
+
+
 .debug-green{
   border: 1px solid green;
 }

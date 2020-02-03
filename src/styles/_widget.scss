@@ -1,0 +1,56 @@
+.widget{
+  .container{
+    .content{
+      .info{
+        margin-top:117px;
+
+        .description{
+          margin-top:16px;
+          width: 75.246%;
+        }
+      }
+      .two-blocks{
+        margin-top:67px;
+        .block{
+          width: 50%;
+    
+          .items{
+            padding: 5px 120px 5px 40px; 
+            
+
+           
+              
+            
+            ul{
+              list-style-type:none;
+              padding: 0px;
+              margin:0px;
+              
+              li{
+                position: relative;
+                margin-top:16px;
+                &:before{
+                  
+                  content:'';
+                  position: absolute;
+                  left: -40px;
+                  top:50%;
+                  transform:translatey(-50%);
+                  background-color: red;
+                  width:4px;
+                  height: 56px;
+                }
+
+                &:first-child{
+                  // content: '2';
+                  margin-top:0px;
+                }
+              }
+            }
+          }
+
+        }
+      }
+    }
+  }
+}
