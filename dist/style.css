@@ -92,6 +92,10 @@ body p {
   transform: translateY(-50%);
   font-size: 22px;
 }
+.btn:hover {
+  transition: background-color 0.5s;
+  background-color: #277eb7;
+}
 
 .widget .container .content .info {
   margin-top: 117px;
@@ -107,30 +111,53 @@ body p {
 .widget .container .content .two-blocks .block {
   width: 50%;
 }
-.widget .container .content .two-blocks .block .image img {
+.widget .container .content .two-blocks .block .data {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.widget .container .content .two-blocks .block .data .image img {
   width: 100%;
 }
-.widget .container .content .two-blocks .block .text {
+.widget .container .content .two-blocks .block .data .text {
   margin-top: 24px;
   width: 97.368%;
 }
-.widget .container .content .two-blocks .block .more {
+.widget .container .content .two-blocks .block .data .more {
   margin-top: 48px;
 }
 .widget .container .content .two-blocks .block .items {
   padding: 5px 120px 5px 40px;
 }
-.widget .container .content .two-blocks .block .items ul {
+.widget .container .content .two-blocks .block .items .links {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-.widget .container .content .two-blocks .block .items ul li {
-  position: relative;
+.widget .container .content .two-blocks .block .items .links li {
   margin-top: 16px;
   color: #a3a3a3;
+  position: relative;
 }
-.widget .container .content .two-blocks .block .items ul li:before {
+@keyframes ingredient {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+.widget .container .content .two-blocks .block .items .links li:hover {
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(-45deg, white, #777777);
+  background-size: 400% 400%;
+  animation: ingredient 5s ease infinite;
+}
+.widget .container .content .two-blocks .block .items .links li .selected-link:before {
   content: "";
   position: absolute;
   left: -40px;
@@ -140,7 +167,7 @@ body p {
   width: 4px;
   height: 56px;
 }
-.widget .container .content .two-blocks .block .items ul li:first-child {
+.widget .container .content .two-blocks .block .items .links li:first-child {
   margin-top: 0px;
 }
 
