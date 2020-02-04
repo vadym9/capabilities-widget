@@ -1,8 +1,10 @@
 body {
   margin: 0px;
-
+  background-color: $primary;
+  color: $black;
   p {
     margin:0px;
+    color: $gray;
     font-size: 16px;
     font-weight: 300;
     font-stretch: normal;

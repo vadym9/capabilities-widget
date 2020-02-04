@@ -29,9 +29,12 @@ h2 {
 
 body {
   margin: 0px;
+  background-color: white;
+  color: #2e2e2e;
 }
 body p {
   margin: 0px;
+  color: #777777;
   font-size: 16px;
   font-weight: 300;
   font-stretch: normal;
@@ -125,6 +128,7 @@ body p {
 .widget .container .content .two-blocks .block .items ul li {
   position: relative;
   margin-top: 16px;
+  color: #a3a3a3;
 }
 .widget .container .content .two-blocks .block .items ul li:before {
   content: "";
@@ -132,7 +136,7 @@ body p {
   left: -40px;
   top: 50%;
   transform: translatey(-50%);
-  background-color: red;
+  background-color: #0099ff;
   width: 4px;
   height: 56px;
 }
