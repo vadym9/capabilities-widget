@@ -1,3 +1,12 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?q284md");
+  src: url("fonts/icomoon.eot?q284md#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?q284md") format("truetype"), url("fonts/icomoon.woff?q284md") format("woff"), url("fonts/icomoon.svg?q284md#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 h1 {
   margin: 0px;
   font-size: 40px;
@@ -58,6 +67,29 @@ body p {
   border: 1px solid blue;
 }
 
+.btn {
+  background-color: #0099ff;
+  border: none;
+  padding: 19px 54.8px 19px 29.2px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  position: relative;
+}
+.btn:after {
+  font-family: "icomoon";
+  content: "";
+  position: absolute;
+  right: 26.2px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 22px;
+}
+
 .widget .container .content .info {
   margin-top: 117px;
 }
@@ -67,9 +99,20 @@ body p {
 }
 .widget .container .content .two-blocks {
   margin-top: 67px;
+  margin-bottom: 130px;
 }
 .widget .container .content .two-blocks .block {
   width: 50%;
+}
+.widget .container .content .two-blocks .block .image img {
+  width: 100%;
+}
+.widget .container .content .two-blocks .block .text {
+  margin-top: 24px;
+  width: 97.368%;
+}
+.widget .container .content .two-blocks .block .more {
+  margin-top: 48px;
 }
 .widget .container .content .two-blocks .block .items {
   padding: 5px 120px 5px 40px;
