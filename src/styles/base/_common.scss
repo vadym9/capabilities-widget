@@ -2,10 +2,9 @@ body {
   margin: 0px;
   background-color: $primary;
   color: $black;
-  // background: linear-gradient(90deg,rgb(56, 54, 54), $light-gray 300%);
 
   p {
-    margin:0px;
+    margin: 0px;
     color: $gray;
     font-size: 16px;
     font-weight: 300;
@@ -16,30 +15,17 @@ body {
   }
 }
 
-.container{
+.container {
   max-width: 1180px;
   padding: 0 80px;
   margin: 0px auto;
-  width:63.3333%;
+  width: 63.3333%;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.jcsb{
+.jcsb {
   justify-content: space-between;
-}
-
-
-.debug-green{
-  border: 1px solid green;
-}
-
-.debug-red{
-  border: 1px solid red;
-}
-
-.debug-blue{
-  border: 1px solid blue;
 }

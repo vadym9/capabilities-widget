@@ -7,7 +7,6 @@
         .description {
           margin-top: 16px;
           width: 75.246%;
-
         }
       }
 
@@ -18,33 +17,29 @@
         .block {
           width: 50%;
 
-          .data{
+          .slides {
             list-style-type: none;
             padding: 0px;
             margin: 0px;
+
             .image {
               img {
                 width: 100%;
               }
             }
-  
+
             .text {
               margin-top: 24px;
               width: 97.368%;
             }
-  
+
             .more {
               margin-top: 48px;
             }
           }
-          
 
           .items {
             padding: 5px 120px 5px 40px;
-
-
-
-
 
             .links {
               list-style-type: none;
@@ -52,68 +47,51 @@
               margin: 0px;
 
               li {
-
                 margin-top: 16px;
                 color: $light-gray;
                 position: relative;
 
-                @keyframes ingredient{
+                @keyframes ingredient {
                   0% {
                     background-position: 0% 100%;
                   }
-                  
-                  50%{
+
+                  50% {
                     background-position: 50% 100%;
                   }
 
-                  100%{
+                  100% {
                     background-position: 0% 100%;
                   }
                 }
+
                 &:hover {
                   cursor: pointer;
-                  color:white;
-                  background: linear-gradient(-45deg,white, $gray);
+                  color: white;
+                  background: linear-gradient(-45deg, white, $gray);
                   background-size: 400% 400%;
                   animation: ingredient 5s ease infinite;
-                  // background:linear-gradient(-20deg,$light-gray, gray);
-                  // animation: hover-item 2s ease infinite;
-                  // transition: background-color 1s;
                 }
 
-                // .selected-link-
                 .selected-link {
-
-
-
                   &:before {
-
-                    content: '';
+                    content: "";
                     position: absolute;
                     left: -40px;
                     top: 50%;
                     transform: translatey(-50%);
                     background-color: $blue;
-                
                     width: 4px;
-                    // height: 56px;
                     height: 100%;
                   }
                 }
 
-
-
-
-
-
                 &:first-child {
-                  // content: '2';
                   margin-top: 0px;
                 }
               }
             }
           }
-
         }
       }
     }

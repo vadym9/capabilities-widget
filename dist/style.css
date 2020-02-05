@@ -58,18 +58,6 @@ body p {
   justify-content: space-between;
 }
 
-.debug-green {
-  border: 1px solid green;
-}
-
-.debug-red {
-  border: 1px solid red;
-}
-
-.debug-blue {
-  border: 1px solid blue;
-}
-
 .btn {
   background-color: #0099ff;
   border: none;
@@ -80,14 +68,13 @@ body p {
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.2px;
-  color: #ffffff;
+  color: white;
   position: relative;
 }
 .btn:after {
   font-family: "icomoon";
   content: "";
   position: absolute;
-  cursor: pointer;
   right: 26.2px;
   top: 50%;
   transform: translateY(-50%);
@@ -96,6 +83,7 @@ body p {
 .btn:hover {
   transition: background-color 0.5s;
   background-color: #277eb7;
+  cursor: pointer;
 }
 
 .widget .container .content .info {
@@ -112,19 +100,19 @@ body p {
 .widget .container .content .two-blocks .block {
   width: 50%;
 }
-.widget .container .content .two-blocks .block .data {
+.widget .container .content .two-blocks .block .slides {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-.widget .container .content .two-blocks .block .data .image img {
+.widget .container .content .two-blocks .block .slides .image img {
   width: 100%;
 }
-.widget .container .content .two-blocks .block .data .text {
+.widget .container .content .two-blocks .block .slides .text {
   margin-top: 24px;
   width: 97.368%;
 }
-.widget .container .content .two-blocks .block .data .more {
+.widget .container .content .two-blocks .block .slides .more {
   margin-top: 48px;
 }
 .widget .container .content .two-blocks .block .items {
