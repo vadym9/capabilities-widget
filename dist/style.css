@@ -145,6 +145,7 @@ body p {
   color: white;
   background: linear-gradient(-45deg, white, #777777);
   background-size: 400% 400%;
+  box-shadow: 10px 10px 10px 1px #777777;
   animation: ingredient 5s ease infinite;
 }
 .widget .container .content .two-blocks .block .items .links li .selected-link {

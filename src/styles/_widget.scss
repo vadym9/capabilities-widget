@@ -70,6 +70,7 @@
                   color: white;
                   background: linear-gradient(-45deg, white, $gray);
                   background-size: 400% 400%;
+                  box-shadow:10px 10px 10px 1px $gray;
                   animation: ingredient 5s ease infinite;
                 }
 
