@@ -8,8 +8,10 @@
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.2px;
+  text-transform: uppercase;
   color: white;
   position: relative;
+  transition: background-color 0.5s;
 
   &:after {
     font-family: "icomoon";
@@ -22,7 +24,6 @@
   }
 
   &:hover {
-    transition: background-color 0.5s;
     background-color: $dark-blue;
     cursor: pointer;
   }

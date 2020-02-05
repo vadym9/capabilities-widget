@@ -68,8 +68,10 @@ body p {
   font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.2px;
+  text-transform: uppercase;
   color: white;
   position: relative;
+  transition: background-color 0.5s;
 }
 .btn:after {
   font-family: "icomoon";
@@ -81,7 +83,6 @@ body p {
   font-size: 22px;
 }
 .btn:hover {
-  transition: background-color 0.5s;
   background-color: #277eb7;
   cursor: pointer;
 }
@@ -145,6 +146,9 @@ body p {
   background: linear-gradient(-45deg, white, #777777);
   background-size: 400% 400%;
   animation: ingredient 5s ease infinite;
+}
+.widget .container .content .two-blocks .block .items .links li .selected-link {
+  color: #2e2e2e;
 }
 .widget .container .content .two-blocks .block .items .links li .selected-link:before {
   content: "";

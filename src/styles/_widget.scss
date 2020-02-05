@@ -74,6 +74,7 @@
                 }
 
                 .selected-link {
+                  color:$black;
                   &:before {
                     content: "";
                     position: absolute;
@@ -83,6 +84,7 @@
                     background-color: $blue;
                     width: 4px;
                     height: 100%;
+                    
                   }
                 }
 
