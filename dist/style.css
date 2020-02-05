@@ -87,6 +87,7 @@ body p {
   font-family: "icomoon";
   content: "";
   position: absolute;
+  cursor: pointer;
   right: 26.2px;
   top: 50%;
   transform: translateY(-50%);
@@ -165,7 +166,7 @@ body p {
   transform: translatey(-50%);
   background-color: #0099ff;
   width: 4px;
-  height: 56px;
+  height: 100%;
 }
 .widget .container .content .two-blocks .block .items .links li:first-child {
   margin-top: 0px;

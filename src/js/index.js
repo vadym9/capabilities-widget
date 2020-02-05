@@ -21,6 +21,8 @@ $(document).ready(
         console.log(linkId);
         
         $('.selected-link').removeAttr('class');
+        // console.log($(this).children());
+        
         $(this).children().addClass('selected-link')
         // $(this).addClass('selected-link')
         $(".data li").slideUp()
