@@ -1,98 +1,95 @@
-.widget {
-  .container {
-    .content {
-      .info {
-        margin-top: 117px;
+.widget .container .content {
+  .info {
+    margin-top: 117px;
 
-        .description {
-          margin-top: 16px;
-          width: 75.246%;
+    .description {
+      margin-top: 16px;
+      width: 75.2%;
+    }
+  }
+
+  .two-blocks {
+    margin-top: 67px;
+    margin-bottom: 130px;
+
+    .block {
+      width: 50%;
+
+      .slides {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+
+        .image {
+          img {
+            width: 100%;
+          }
+        }
+
+        .text {
+          margin-top: 24px;
+          width: 97%;
+        }
+
+        .more {
+          margin-top: 48px;
         }
       }
 
-      .two-blocks {
-        margin-top: 67px;
-        margin-bottom: 130px;
+      .items {
+        padding: 5px 120px 5px 40px;
 
-        .block {
-          width: 50%;
+        .links {
+          list-style-type: none;
+          padding: 0px;
+          margin: 0px;
 
-          .slides {
-            list-style-type: none;
-            padding: 0px;
-            margin: 0px;
+          li {
+            margin-top: 16px;
+            color: $light-gray;
+            position: relative;
 
-            .image {
-              img {
-                width: 100%;
+            @keyframes ingredient {
+              0% {
+                background-position: 0% 100%;
+              }
+
+              50% {
+                background-position: 50% 100%;
+              }
+
+              100% {
+                background-position: 0% 100%;
               }
             }
 
-            .text {
-              margin-top: 24px;
-              width: 97.368%;
+            &:hover {
+              cursor: pointer;
+              color: white;
+              background: linear-gradient(-45deg, white, $gray);
+              background-size: 400% 400%;
+              box-shadow: 10px 10px 10px 1px $gray;
+              animation: ingredient 5s ease infinite;
             }
 
-            .more {
-              margin-top: 48px;
-            }
-          }
+            .selected-link {
+              color: $black;
 
-          .items {
-            padding: 5px 120px 5px 40px;
+              &:before {
+                content: "";
+                position: absolute;
+                left: -40px;
+                top: 50%;
+                transform: translatey(-50%);
+                background-color: $blue;
+                width: 4px;
+                height: 100%;
 
-            .links {
-              list-style-type: none;
-              padding: 0px;
-              margin: 0px;
-
-              li {
-                margin-top: 16px;
-                color: $light-gray;
-                position: relative;
-
-                @keyframes ingredient {
-                  0% {
-                    background-position: 0% 100%;
-                  }
-
-                  50% {
-                    background-position: 50% 100%;
-                  }
-
-                  100% {
-                    background-position: 0% 100%;
-                  }
-                }
-
-                &:hover {
-                  cursor: pointer;
-                  color: white;
-                  background: linear-gradient(-45deg, white, $gray);
-                  background-size: 400% 400%;
-                  box-shadow:10px 10px 10px 1px $gray;
-                  animation: ingredient 5s ease infinite;
-                }
-
-                .selected-link {
-                  color:$black;
-                  &:before {
-                    content: "";
-                    position: absolute;
-                    left: -40px;
-                    top: 50%;
-                    transform: translatey(-50%);
-                    background-color: $blue;
-                    width: 4px;
-                    height: 100%;
-                    
-                  }
-                }
-
-                &:first-child {
-                  margin-top: 0px;
-                }
               }
+            }
+
+            &:first-child {
+              margin-top: 0px;
             }
           }
         }
