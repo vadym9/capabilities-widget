@@ -45,7 +45,7 @@ body p {
 
 .container {
   min-width: 1180px;
-  padding: 0 80px;
+  padding: 0 100px;
   margin: 0px auto;
   width: 66%;
 }
@@ -87,44 +87,44 @@ body p {
   cursor: pointer;
 }
 
-.widget .container .content .info {
+.capabilities .container .content .info {
   margin-top: 117px;
 }
-.widget .container .content .info .description {
+.capabilities .container .content .info .description {
   margin-top: 16px;
-  width: 75.2%;
+  width: 75%;
 }
-.widget .container .content .two-blocks {
+.capabilities .container .content .two-blocks {
   margin-top: 67px;
   margin-bottom: 130px;
 }
-.widget .container .content .two-blocks .block {
+.capabilities .container .content .two-blocks .block {
   width: 50%;
 }
-.widget .container .content .two-blocks .block .slides {
+.capabilities .container .content .two-blocks .block .slides {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-.widget .container .content .two-blocks .block .slides .image img {
+.capabilities .container .content .two-blocks .block .slides .image img {
   width: 100%;
 }
-.widget .container .content .two-blocks .block .slides .text {
+.capabilities .container .content .two-blocks .block .slides .text {
   margin-top: 24px;
   width: 97%;
 }
-.widget .container .content .two-blocks .block .slides .more {
+.capabilities .container .content .two-blocks .block .slides .more {
   margin-top: 48px;
 }
-.widget .container .content .two-blocks .block .items {
+.capabilities .container .content .two-blocks .block .items {
   padding: 5px 120px 5px 40px;
 }
-.widget .container .content .two-blocks .block .items .links {
+.capabilities .container .content .two-blocks .block .items .links {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
 }
-.widget .container .content .two-blocks .block .items .links li {
+.capabilities .container .content .two-blocks .block .items .links li {
   margin-top: 16px;
   color: #a3a3a3;
   position: relative;
@@ -140,7 +140,7 @@ body p {
     background-position: 0% 100%;
   }
 }
-.widget .container .content .two-blocks .block .items .links li:hover {
+.capabilities .container .content .two-blocks .block .items .links li:hover {
   cursor: pointer;
   color: white;
   background: linear-gradient(-45deg, white, #777777);
@@ -148,10 +148,10 @@ body p {
   box-shadow: 10px 10px 10px 1px #777777;
   animation: ingredient 5s ease infinite;
 }
-.widget .container .content .two-blocks .block .items .links li .selected-link {
+.capabilities .container .content .two-blocks .block .items .links li .selected-link {
   color: #2e2e2e;
 }
-.widget .container .content .two-blocks .block .items .links li .selected-link:before {
+.capabilities .container .content .two-blocks .block .items .links li .selected-link:before {
   content: "";
   position: absolute;
   left: -40px;
@@ -161,7 +161,7 @@ body p {
   width: 4px;
   height: 100%;
 }
-.widget .container .content .two-blocks .block .items .links li:first-child {
+.capabilities .container .content .two-blocks .block .items .links li:first-child {
   margin-top: 0px;
 }
 

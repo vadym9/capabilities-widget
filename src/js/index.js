@@ -31,7 +31,7 @@ function onTab() {
   $("#" + linkId + "-slide").slideToggle();
 }
 
-function hideAllAndShowFirstSlide() {
+const hideAllAndShowFirstSlide = () => {
   $('.slides li').hide();
   $('.links li h2').first().addClass('selected-link');
   $('.slides li').first().slideToggle();
