@@ -1,0 +1,30 @@
+.btn {
+  background-color: $blue;
+  border: none;
+  padding: 19px 54.8px 19px 29.2px;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  transition: background-color 0.5s;
+
+  &:after {
+    font-family: "icomoon";
+    content: "\e900";
+    position: absolute;
+    right: 26.2px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 22px;
+  }
+
+  &:hover {
+    background-color: $dark-blue;
+    cursor: pointer;
+  }
+}

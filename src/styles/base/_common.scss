@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  background-color: $primary;
+  color: $black;
+
+  p {
+    margin: 0px;
+    color: $gray;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+  }
+}
+
+.container {
+  min-width: 1180px;
+  padding: 0 100px;
+  margin: 0px auto;
+  width: 66%;
+}
+
+.flex {
+  display: flex;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
